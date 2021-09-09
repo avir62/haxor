@@ -1,5 +1,6 @@
 <?php
-
+error_reporting(0);
+ini_set('display_errors', 0);
 if (!empty($_SERVER['HTTP_CLIENT_IP']))
     {
       $ipaddress = $_SERVER['HTTP_CLIENT_IP']."\r\n";
